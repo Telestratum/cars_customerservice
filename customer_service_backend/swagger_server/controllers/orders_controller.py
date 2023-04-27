@@ -43,7 +43,7 @@ def booking_car(body=None):  # noqa: E501
         # body = OrderInfo.from_dict(connexion.request.get_json())  # noqa: E501
         try:
             if car_orders.find_one({"transaction_id":body['transaction_id']}):
-                    return "car is booked for this transaction"
+                    return "car already booked for this transaction"
                 
             else:
                     if transactions.find_one({"transaction_id":body['transaction_id']}):
@@ -51,18 +51,10 @@ def booking_car(body=None):  # noqa: E501
                         car_orders.insert_one(body)
                         return "order is created", 201
                     else:
-                        return "transaction id is not found"
+                        return "transaction id is Not Found",404
                 
-        except 401:
-            return "unauthorized", 401
-        except 403:
-            return "Forbidden", 403
-        except 404:
-            return "Not found", 404
-        except 503:
-            return "server unavailable", 503
-        except 500:
-            return "Internal server error",500
+        except:
+            return "Internal_server_error",500
 
 
 def delete_order(order_id):  # noqa: E501
@@ -78,20 +70,13 @@ def delete_order(order_id):  # noqa: E501
     try:
         
         if car_orders.find_one({"order_id":order_id}):
-            delete_user = car_orders.delete_one({"order_id":order_id})
+            car_orders.delete_one({"order_id":order_id})
             return "successfully deleted",200
         else:
-            return "order_id is not found", 200
-    except 401:
-            return "unauthorized", 401
-    except 403:
-        return "Forbidden", 403
-    except 404:
-        return "Not found", 404
-    except 503:
-        return "server unavailable", 503
+            return "order_id is Not Found", 404
+
     except:
-        return "Internal server error",500
+        return "Internal_server_error",500
 
 def orders_get():  # noqa: E501
     """orders_get
@@ -110,11 +95,5 @@ def orders_get():  # noqa: E501
 
             data_list.append(i)
         return data_list,200
-    except 401:
-        return "unauthorized", 401
-    except 403:
-        return "Forbidden", 403
-    except 404:
-        return "Not found", 404
-    except 503:
-        return "server unavailable", 503
+    except:
+         return "Internal_server_error",500

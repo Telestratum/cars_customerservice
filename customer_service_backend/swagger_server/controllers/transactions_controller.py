@@ -42,21 +42,13 @@ def add_transaction(body=None):  # noqa: E501
                     if car_models.find_one({"model_id":body['model_id']}):
                         body.update({"transaction_id" : (uuid.uuid4().hex)})
                         transactions.insert_one(body)
-                        return "transaction is made", 200
+                        return "Transaction is Done", 200
                     else:
-                        return "check your model_id"
+                        return "Model_id Not found",404
             else:
-                return "check your user_id"
-        except 401:
-            return "unauthorized", 401
-        except 403:
-            return "Forbidden", 403
-        except 404:
-            return "Not found", 404
-        except 503:
-            return "server unavailable", 503
-        except 500:
-            return "Internal server error",500
+                return "User_id Not found",404
+        except:
+            return "Internal_server_error",500
         
 def get_transactions():  # noqa: E501
     """get_transactions
@@ -75,11 +67,6 @@ def get_transactions():  # noqa: E501
 
             data_list.append(i)
         return data_list,200
-    except 401:
-        return "unauthorized", 401
-    except 403:
-        return "Forbidden", 403
-    except 404:
-        return "Not found", 404
-    except 503:
+    
+    except :
         return "server unavailable", 503

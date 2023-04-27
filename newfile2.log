@@ -1,0 +1,2073 @@
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4c631d6f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4c62c675e0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4c631d6f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4c62c679d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4c631d6f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4c631d6f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4c613e10d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4c631d6f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+validation.py::ERROR:http://127.0.0.1:8080/customerservice/v1/orders validation error: None is not of type 'object'
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (400)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 11:56:50] "[31m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 400 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f0b07adef70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f0b074e3790>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f0b07adef70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f0b074e3b80>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f0b07adef70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f0b07adef70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f0b05c72940>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f0b07adef70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:27:03] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:27:45] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (204)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:27:57] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 204 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (204)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:28:02] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 204 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f63c7b82f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f63c7587820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f63c7b82f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f63c7587c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f63c7b82f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f63c7b82f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f63c5d19940>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f63c7b82f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (204)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:30:44] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 204 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:30:58] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:33:12] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fbf2f061f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fbf2ea67820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fbf2f061f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fbf2ea67c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fbf2f061f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fbf2f061f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fbf2d1f78b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fbf2f061f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f36d129ff70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f36d0ca4790>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f36d129ff70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f36d0ca4c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f36d129ff70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f36d129ff70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f36d0431940>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f36d129ff70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:36:16] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:36:28] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:36:38] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:38:40] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:43:09] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc5677aff70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fc5671b4820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc5677aff70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fc5671b4c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc5677aff70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc5677aff70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fc5659469d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc5677aff70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:46:32] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f812ef43f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f812e948820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f812ef43f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f812e948c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f812ef43f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f812ef43f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f812d0d99d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f812ef43f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:57:49] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:57:56] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 12:59:56] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdbe00caf70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fdbdfacf820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdbe00caf70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fdbdfacfca0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdbe00caf70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdbe00caf70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fdbde2599d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdbe00caf70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:07:54] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:08:04] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:08:07] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4198b3ff70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4198545790>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4198b3ff70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4198545c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4198b3ff70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4198b3ff70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4196ccb9d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4198b3ff70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:13:13] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:13:14] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:13:16] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:14:20] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 13:46:38] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9e17a24f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f9e17429820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9e17a24f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f9e17429c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9e17a24f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9e17a24f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f9e163b0a60>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9e17a24f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:27:45] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (404)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:29:17] "[33mGET /customerservice/v1/orders/ HTTP/1.1[0m" 404 -
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (405)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:29:23] "[31m[1mGET /customerservice/v1/orders/gfg HTTP/1.1[0m" 405 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/ss validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:29:44] "DELETE /customerservice/v1/orders/ss HTTP/1.1" 200 -
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (404)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:29:49] "[33mDELETE /customerservice/v1/orders/ HTTP/1.1[0m" 404 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/f16540c42ace4e229a19affe8285016e validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:30:09] "DELETE /customerservice/v1/orders/f16540c42ace4e229a19affe8285016e HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/f16540c42ace4e229a19affe8285016e validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:30:12] "DELETE /customerservice/v1/orders/f16540c42ace4e229a19affe8285016e HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:30:17] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:30:32] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 14:30:42] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdca2e27f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fdca282d8b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdca2e27f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fdca282dca0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdca2e27f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdca2e27f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fdca0fb7a60>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fdca2e27f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:18:03] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:18:04] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:18:05] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:18:13] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fa0d971ef70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fa0d91258b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fa0d971ef70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fa0d9125ca0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fa0d971ef70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fa0d971ef70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fa0d80afc10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fa0d971ef70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+app.py::ERROR:Exception on /customerservice/v1/transactions [POST]
+Traceback (most recent call last):
+  File "/home/hari/Desktop/CustomerService/customer_service_backend/swagger_server/controllers/transactions_controller.py", line 41, in add_transaction
+    if transactions.find_one({"transaction_id":body['transaction_id']}):
+KeyError: 'transaction_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/decorator.py", line 68, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/uri_parsing.py", line 149, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/validation.py", line 196, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/parameter.py", line 120, in wrapper
+    return function(**kwargs)
+  File "/home/hari/Desktop/CustomerService/customer_service_backend/swagger_server/controllers/transactions_controller.py", line 51, in add_transaction
+    except 401:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (500)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:24:09] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 500 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+app.py::ERROR:Exception on /customerservice/v1/transactions [POST]
+Traceback (most recent call last):
+  File "/home/hari/Desktop/CustomerService/customer_service_backend/swagger_server/controllers/transactions_controller.py", line 41, in add_transaction
+    if transactions.find_one({"transaction_id":body['transaction_id']}):
+KeyError: 'transaction_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/decorator.py", line 68, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/uri_parsing.py", line 149, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/validation.py", line 196, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/parameter.py", line 120, in wrapper
+    return function(**kwargs)
+  File "/home/hari/Desktop/CustomerService/customer_service_backend/swagger_server/controllers/transactions_controller.py", line 51, in add_transaction
+    except 401:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (500)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:24:11] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 500 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+app.py::ERROR:Exception on /customerservice/v1/transactions [POST]
+Traceback (most recent call last):
+  File "/home/hari/Desktop/CustomerService/customer_service_backend/swagger_server/controllers/transactions_controller.py", line 41, in add_transaction
+    if users.find_one({"user_id":body['user_id']}):
+KeyError: 'transaction_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/decorator.py", line 68, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/uri_parsing.py", line 149, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/validation.py", line 196, in wrapper
+    response = function(request)
+  File "/home/hari/Desktop/CustomerService/venv1/lib/python3.9/site-packages/connexion/decorators/parameter.py", line 120, in wrapper
+    return function(**kwargs)
+  File "/home/hari/Desktop/CustomerService/customer_service_backend/swagger_server/controllers/transactions_controller.py", line 51, in add_transaction
+    except 404:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (500)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:27:09] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 500 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7ff523565f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7ff522f6b8b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7ff523565f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7ff522f6bca0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7ff523565f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7ff523565f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7ff5216f4a60>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7ff523565f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:27:20] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:27:23] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc884dc3f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fc8847c9820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc884dc3f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fc8847c9c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc884dc3f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc884dc3f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fc883752a60>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fc884dc3f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:32:38] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:32:51] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:33:03] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:37:28] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:37:42] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/f16540c42ace4e229a19affe8285016e validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:37:48] "DELETE /customerservice/v1/orders/f16540c42ace4e229a19affe8285016e HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/ee963a1a0c7041448cface0066f0d477 validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:38:11] "DELETE /customerservice/v1/orders/ee963a1a0c7041448cface0066f0d477 HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/ee963a1a0c7041448cface0066f0d477 validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:38:13] "DELETE /customerservice/v1/orders/ee963a1a0c7041448cface0066f0d477 HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:39:02] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:39:12] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd54e089f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fd54da8e940>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd54e089f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fd54da8ed30>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd54e089f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd54e089f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fd54ca17b80>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd54e089f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:10] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:11] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:12] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:13] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:14] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:15] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:16] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:41:16] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fe7e1a20f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fe7e1424820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fe7e1a20f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fe7e1424c10>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fe7e1a20f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fe7e1a20f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fe7e03ab9d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fe7e1a20f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:44:45] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:47:18] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:47:54] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:47:57] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:48:01] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fb8e2746f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fb8e214c8b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fb8e2746f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fb8e214cd30>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fb8e2746f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fb8e2746f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fb8e10d5af0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fb8e2746f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:50:08] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:50:21] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (204)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:50:25] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 204 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (204)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:50:27] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 204 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f1b7c761f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f1b7c1678b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f1b7c761f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f1b7c167d30>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f1b7c761f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f1b7c761f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f1b7b0ecaf0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f1b7c761f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:52:21] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:52:25] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:52:26] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:52:44] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:53:00] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/d0594b58bbfe4d579b6b983421 validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:53:27] "DELETE /customerservice/v1/orders/d0594b58bbfe4d579b6b983421 HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders/93103c7afbbc4db9bc8e5eb643cd4fa1 validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:53:44] "DELETE /customerservice/v1/orders/93103c7afbbc4db9bc8e5eb643cd4fa1 HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:53:49] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 15:53:55] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f467e169f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f467dbed8b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f467e169f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f467dbedd30>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f467e169f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f467e169f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f467cb77a60>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f467e169f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:08] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:19] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:33] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:35] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:36] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:37] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:38] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:00:39] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:01:54] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9170daaf70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f91707af8b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9170daaf70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f91707afd30>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9170daaf70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9170daaf70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f916ef37b80>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9170daaf70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.105.23.2:8080
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:03:08] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:03:10] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:03:23] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:03:38] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:03:39] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:03:41] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:12:05] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:12:58] "[35m[1mPOST /customerservice/v1/transactions HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:13:12] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+validation.py::ERROR:http://127.0.0.1:8080/customerservice/v1/orders validation error: 'Radiant ' is not one of ['Radiant Red', 'Pearl White', 'Mat black', 'Brilliant Blue', 'Cosmic Cyan'] - 'colour'
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (400)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:14:01] "[31m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 400 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8080/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (201)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:14:29] "[35m[1mPOST /customerservice/v1/orders HTTP/1.1[0m" 201 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [24/Apr/2023 16:14:37] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd4fabe8040>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fd4fa65d9d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd4fabe8040>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fd4fa65ddc0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd4fabe8040>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd4fabe8040>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fd4f8de5af0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fd4fabe8040>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://10.105.23.2:8081
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:14:19] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:14:34] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:14:47] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:14:51] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:15:39] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:15:52] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:16:57] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:17:08] "POST /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:17:27] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders/93103c7afbbc4db9bc8e5eb643cd4fa1 validating parameters...
+parameter.py::DEBUG:Function Arguments: ['order_id']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:18:15] "DELETE /customerservice/v1/orders/93103c7afbbc4db9bc8e5eb643cd4fa1 HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 11:18:21] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4a23fbef70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4a239c48b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4a23fbef70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4a239c4d30>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4a23fbef70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4a23fbef70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4a2214d9d0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4a23fbef70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://10.105.23.2:8081
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:02:55] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4da863cf70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4da8042940>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4da863cf70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4da8042d30>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4da863cf70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4da863cf70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f4da67cba60>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f4da863cf70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://10.105.23.2:8081
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:04:50] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/transactions validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (404)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:05:05] "[33mPOST /customerservice/v1/transactions HTTP/1.1[0m" 404 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9eef530f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f9eeefb48b0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9eef530f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f9eeefb4ca0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9eef530f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9eef530f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f9eedf3f940>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f9eef530f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://10.105.23.2:8081
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:51:52] "GET /customerservice/v1/transactions HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:53:42] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:54:29] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:54:30] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:54:31] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:54:32] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:54:32] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+parameter.py::DEBUG:Function Arguments: []
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:54:37] "GET /customerservice/v1/orders HTTP/1.1" 200 -
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:56:18] "POST /customerservice/v1/orders HTTP/1.1" 200 -
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.orders_controller.orders_get
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fccfba37f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.orders_controller.booking_car
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fccfb43d820>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fccfba37f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/orders/{order_id}...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding DELETE -> swagger_server.controllers.orders_controller.delete_order
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fccfb43dca0>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fccfba37f70>)
+abstract.py::DEBUG:Adding /customerservice/v1/transactions...
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding GET -> swagger_server.controllers.transactions_controller.get_transactions
+abstract.py::DEBUG:... Produces: ['applications/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Adding produces decorator (<BaseSerializer: text/plain>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fccfba37f70>)
+openapi.py::DEBUG:consumes: ['application/json']
+openapi.py::DEBUG:produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+flask_api.py::DEBUG:... Adding POST -> swagger_server.controllers.transactions_controller.add_transaction
+abstract.py::DEBUG:... Produces: ['application/json', 'application/json', 'application/json', 'application/json', 'application/json', 'application/json']
+abstract.py::DEBUG:... Produces json
+abstract.py::DEBUG:... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fccfa3c7940>)
+secure.py::DEBUG:... Security: None
+abstract.py::DEBUG:... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fccfba37f70>)
+flask_app.py::DEBUG:Starting flask HTTP server..
+_internal.py::INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://10.105.23.2:8081
+_internal.py::INFO:[33mPress CTRL+C to quit[0m
+flask_api.py::DEBUG:Getting data and status code
+validation.py::DEBUG:http://127.0.0.1:8081/customerservice/v1/orders validating schema...
+parameter.py::DEBUG:Function Arguments: ['body']
+abstract.py::DEBUG:Getting data and status code
+abstract.py::DEBUG:Prepared body and status code (200)
+abstract.py::DEBUG:Got framework response
+_internal.py::INFO:127.0.0.1 - - [26/Apr/2023 15:57:14] "POST /customerservice/v1/orders HTTP/1.1" 200 -
