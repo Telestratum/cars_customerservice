@@ -1,0 +1,418 @@
+openapi: 3.0.0
+info:
+  title: Customer Management Service
+  description: A service for placing orders and transactions
+  contact:
+    name: Hari prasath
+    email: hariprasath.narayanasamy@gmail.com
+  version: 1.0.0
+servers:
+- url: http://127.0.0.1:7000/customerservice/v1
+tags:
+- name: Orders
+- name: Transactions
+paths:
+  /orders:
+    get:
+      tags:
+      - Orders
+      description: Get  all users
+      operationId: orders_get
+      responses:
+        "200":
+          description: Fetches all orders
+          content:
+            applications/json:
+              schema:
+                $ref: '#/components/schemas/order_details'
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/401UnauthorizedResponse'
+        "403":
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/403ForbiddenResponse'
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/404NotFoundResponse'
+        "503":
+          description: Server unavailable
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/503ServerUnavailableResponse'
+        default:
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/400BadRequestResponse'
+      x-openapi-router-controller: swagger_server.controllers.orders_controller
+    post:
+      tags:
+      - Orders
+      description: Book a car
+      operationId: booking_car
+      requestBody:
+        description: Booking cars
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/order_info'
+      responses:
+        "200":
+          description: 200 responses
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/201OrderCreatedResponse'
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/401UnauthorizedResponse'
+        "403":
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/403ForbiddenResponse'
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/404NotFoundResponse'
+        "503":
+          description: Server unavailable
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/503ServerUnavailableResponse'
+        default:
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/400BadRequestResponse'
+      x-openapi-router-controller: swagger_server.controllers.orders_controller
+  /orders/{order_id}:
+    delete:
+      tags:
+      - Orders
+      description: delete order
+      operationId: delete_order
+      parameters:
+      - name: order_id
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: order deleted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/200OrderDeletedResponse'
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/401UnauthorizedResponse'
+        "403":
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/403ForbiddenResponse'
+        "409":
+          description: Conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/409ConflictResponse'
+        "503":
+          description: Server unavailable
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/503ServerUnavailableResponse'
+      x-openapi-router-controller: swagger_server.controllers.orders_controller
+  /transactions:
+    get:
+      tags:
+      - Transactions
+      description: Get transactions
+      operationId: get_transactions
+      responses:
+        "200":
+          description: Get all transactions
+          content:
+            applications/json:
+              schema:
+                $ref: '#/components/schemas/transaction_details'
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/401UnauthorizedResponse'
+        "403":
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/403ForbiddenResponse'
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/404NotFoundResponse'
+        "503":
+          description: Server unavailable
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/503ServerUnavailableResponse'
+        default:
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/400BadRequestResponse'
+      x-openapi-router-controller: swagger_server.controllers.transactions_controller
+    post:
+      tags:
+      - Transactions
+      description: Add transaction
+      operationId: add_transaction
+      requestBody:
+        description: Adding transaction
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/transaction_info'
+      responses:
+        "200":
+          description: 200 Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/transaction_details'
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/401UnauthorizedResponse'
+        "403":
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/403ForbiddenResponse'
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/404NotFoundResponse'
+        "503":
+          description: Server unavailable
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/503ServerUnavailableResponse'
+        default:
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/400BadRequestResponse'
+      x-openapi-router-controller: swagger_server.controllers.transactions_controller
+components:
+  schemas:
+    order_details:
+      allOf:
+      - type: object
+        properties:
+          order_id:
+            type: string
+          waiting_period:
+            type: integer
+          total_price:
+            type: integer
+          discount_amount:
+            type: integer
+          amount_paid:
+            type: integer
+          due_amount:
+            type: integer
+          due_date:
+            type: number
+    order_info:
+      required:
+      - colour
+      - model_id
+      - offer_id
+      - transaction_id
+      - user_id
+      type: object
+      properties:
+        model_id:
+          type: string
+          description: model id
+        user_id:
+          type: string
+          description: User who booked the vehicle
+        transaction_id:
+          type: string
+        offer_id:
+          type: string
+        colour:
+          type: string
+          enum:
+          - Radiant Red
+          - Pearl White
+          - Mat black
+          - Brilliant Blue
+          - Cosmic Cyan
+    "201OrderCreatedResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 201
+        message:
+          type: string
+          default: ok
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/order_details'
+      example:
+        code: 0
+        data:
+        - ""
+        - ""
+        message: ok
+    "200OrderDeletedResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 200
+        message:
+          type: string
+          default: ok
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/order_details'
+      example:
+        code: 0
+        data:
+        - ""
+        - ""
+        message: ok
+    transaction_details:
+      allOf:
+      - $ref: '#/components/schemas/transaction_info'
+      - type: object
+        properties:
+          transaction_id:
+            type: string
+    transaction_info:
+      required:
+      - model_id
+      - transaction_amount
+      - user_id
+      type: object
+      properties:
+        model_id:
+          type: string
+        user_id:
+          type: string
+        transaction_amount:
+          type: number
+        date:
+          type: string
+        timing:
+          type: number
+        account_from:
+          type: string
+        account_to:
+          type: string
+    "400BadRequestResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 400
+        message:
+          type: string
+          default: BAD_REQUEST
+        data:
+          type: array
+          items:
+            type: object
+    "401UnauthorizedResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 401
+        message:
+          type: string
+          default: UNAUTHORIZED
+    "403ForbiddenResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 403
+        message:
+          type: string
+          default: FORBIDDEN
+    "404NotFoundResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 404
+        message:
+          type: string
+          default: NOT_FOUND
+    "503ServerUnavailableResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 503
+        message:
+          type: string
+          default: SERVER_UNAVAILABLE
+    "409ConflictResponse":
+      type: object
+      properties:
+        code:
+          type: integer
+          default: 409
+        message:
+          type: string
+          default: CONFLICT
+
