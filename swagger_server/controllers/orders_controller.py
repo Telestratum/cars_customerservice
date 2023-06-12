@@ -26,7 +26,7 @@ car_orders = carDatabase.car_orders
 car_models = carDatabase.car_models
 transactions = carDatabase.transactions
 
-logging.basicConfig(filename="newfile2.log",format="%(filename)s:%(lineno)s:%(levelname)s:%(message)s",level=logging.DEBUG)
+logging.basicConfig(filename="customerfile.log",format="%(filename)s:%(lineno)s:%(levelname)s:%(message)s",level=logging.DEBUG)
 
 
 def booking_car(body=None):  # noqa: E501
