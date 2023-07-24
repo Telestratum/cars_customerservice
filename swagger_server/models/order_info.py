@@ -14,13 +14,13 @@ class OrderInfo(Model):
 
     Do not edit the class manually.
     """
-    def __init__(self, model_id: str=None, user_id: str=None, transaction_id: str=None, offer_id: str=None, colour: str=None):  # noqa: E501
+    def __init__(self, model_id: str=None, email: str=None, transaction_id: str=None, offer_id: str=None, colour: str=None):  # noqa: E501
         """OrderInfo - a model defined in Swagger
 
         :param model_id: The model_id of this OrderInfo.  # noqa: E501
         :type model_id: str
-        :param user_id: The user_id of this OrderInfo.  # noqa: E501
-        :type user_id: str
+        :param email: The email of this OrderInfo.  # noqa: E501
+        :type email: str
         :param transaction_id: The transaction_id of this OrderInfo.  # noqa: E501
         :type transaction_id: str
         :param offer_id: The offer_id of this OrderInfo.  # noqa: E501
@@ -30,7 +30,7 @@ class OrderInfo(Model):
         """
         self.swagger_types = {
             'model_id': str,
-            'user_id': str,
+            'email': str,
             'transaction_id': str,
             'offer_id': str,
             'colour': str
@@ -38,13 +38,13 @@ class OrderInfo(Model):
 
         self.attribute_map = {
             'model_id': 'model_id',
-            'user_id': 'user_id',
+            'email': 'email',
             'transaction_id': 'transaction_id',
             'offer_id': 'offer_id',
             'colour': 'colour'
         }
         self._model_id = model_id
-        self._user_id = user_id
+        self._email = email
         self._transaction_id = transaction_id
         self._offer_id = offer_id
         self._colour = colour
@@ -86,29 +86,29 @@ class OrderInfo(Model):
         self._model_id = model_id
 
     @property
-    def user_id(self) -> str:
-        """Gets the user_id of this OrderInfo.
+    def email(self) -> str:
+        """Gets the email of this OrderInfo.
 
         User who booked the vehicle  # noqa: E501
 
-        :return: The user_id of this OrderInfo.
+        :return: The email of this OrderInfo.
         :rtype: str
         """
-        return self._user_id
+        return self._email
 
-    @user_id.setter
-    def user_id(self, user_id: str):
-        """Sets the user_id of this OrderInfo.
+    @email.setter
+    def email(self, email: str):
+        """Sets the email of this OrderInfo.
 
         User who booked the vehicle  # noqa: E501
 
-        :param user_id: The user_id of this OrderInfo.
-        :type user_id: str
+        :param email: The email of this OrderInfo.
+        :type email: str
         """
-        if user_id is None:
-            raise ValueError("Invalid value for `user_id`, must not be `None`")  # noqa: E501
+        if email is None:
+            raise ValueError("Invalid value for `email`, must not be `None`")  # noqa: E501
 
-        self._user_id = user_id
+        self._email = email
 
     @property
     def transaction_id(self) -> str:

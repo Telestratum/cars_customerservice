@@ -25,8 +25,9 @@ carDatabase = cluster.carDatabase
 car_orders = carDatabase.car_orders
 car_models = carDatabase.car_models
 transactions = carDatabase.transactions
+users = carDatabase.users
 
-logging.basicConfig(filename="customerfile.log",format="%(filename)s:%(lineno)s:%(levelname)s:%(message)s",level=logging.DEBUG)
+logging.basicConfig(filename="/home/hari/Desktop/mahindra_carsservice/customerfile.log",format="%(filename)s:%(lineno)s:%(levelname)s:%(message)s",level=logging.DEBUG)
 
 
 def booking_car(body=None):  # noqa: E501
@@ -48,7 +49,9 @@ def booking_car(body=None):  # noqa: E501
                 
             else:
                     if transactions.find_one({"transaction_id":body['transaction_id']}):
-                        body.update({"order_id" : (uuid.uuid4().hex)})
+                        order_id = (uuid.uuid4().hex)
+                        body.update({"order_id" : order_id})
+                        users.update_one({"email":body['email']},{"$set":{"order_id" : order_id}})
                         car_orders.insert_one(body)
                         return "Order is created", 201
                     else:

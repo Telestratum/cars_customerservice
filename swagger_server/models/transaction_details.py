@@ -15,17 +15,17 @@ class TransactionDetails(Model):
 
     Do not edit the class manually.
     """
-    def __init__(self, model_id: str=None, user_id: str=None, transaction_amount: float=None, _date: str=None, timing: float=None, account_from: str=None, account_to: str=None, transaction_id: str=None):  # noqa: E501
+    def __init__(self, model_id: str=None, email: str=None, transaction_amount: float=None, date: date=None, timing: str=None, account_from: str=None, account_to: str=None, transaction_id: str=None):  # noqa: E501
         """TransactionDetails - a model defined in Swagger
 
         :param model_id: The model_id of this TransactionDetails.  # noqa: E501
         :type model_id: str
-        :param user_id: The user_id of this TransactionDetails.  # noqa: E501
-        :type user_id: str
+        :param email: The email of this TransactionDetails.  # noqa: E501
+        :type email: str
         :param transaction_amount: The transaction_amount of this TransactionDetails.  # noqa: E501
         :type transaction_amount: float
-        :param _date: The _date of this TransactionDetails.  # noqa: E501
-        :type _date: str
+        :param date: The date of this TransactionDetails.  # noqa: E501
+        :type date: str
         :param timing: The timing of this TransactionDetails.  # noqa: E501
         :type timing: float
         :param account_from: The account_from of this TransactionDetails.  # noqa: E501
@@ -37,10 +37,10 @@ class TransactionDetails(Model):
         """
         self.swagger_types = {
             'model_id': str,
-            'user_id': str,
+            'email': str,
             'transaction_amount': float,
-            '_date': str,
-            'timing': float,
+            'date': date,
+            'timing': str,
             'account_from': str,
             'account_to': str,
             'transaction_id': str
@@ -48,18 +48,18 @@ class TransactionDetails(Model):
 
         self.attribute_map = {
             'model_id': 'model_id',
-            'user_id': 'user_id',
+            'email': 'email',
             'transaction_amount': 'transaction_amount',
-            '_date': 'date',
+            'date': 'date',
             'timing': 'timing',
             'account_from': 'account_from',
             'account_to': 'account_to',
             'transaction_id': 'transaction_id'
         }
         self._model_id = model_id
-        self._user_id = user_id
+        self._email = email
         self._transaction_amount = transaction_amount
-        self.__date = _date
+        self._date = date
         self._timing = timing
         self._account_from = account_from
         self._account_to = account_to
@@ -100,27 +100,27 @@ class TransactionDetails(Model):
         self._model_id = model_id
 
     @property
-    def user_id(self) -> str:
-        """Gets the user_id of this TransactionDetails.
+    def email(self) -> str:
+        """Gets the email of this TransactionDetails.
 
 
-        :return: The user_id of this TransactionDetails.
+        :return: The email of this TransactionDetails.
         :rtype: str
         """
-        return self._user_id
+        return self._email
 
-    @user_id.setter
-    def user_id(self, user_id: str):
-        """Sets the user_id of this TransactionDetails.
+    @email.setter
+    def email(self, email: str):
+        """Sets the email of this TransactionDetails.
 
 
-        :param user_id: The user_id of this TransactionDetails.
-        :type user_id: str
+        :param email: The email of this TransactionDetails.
+        :type email: str
         """
-        if user_id is None:
-            raise ValueError("Invalid value for `user_id`, must not be `None`")  # noqa: E501
+        if email is None:
+            raise ValueError("Invalid value for `email`, must not be `None`")  # noqa: E501
 
-        self._user_id = user_id
+        self._email = email
 
     @property
     def transaction_amount(self) -> float:
@@ -146,43 +146,43 @@ class TransactionDetails(Model):
         self._transaction_amount = transaction_amount
 
     @property
-    def _date(self) -> str:
-        """Gets the _date of this TransactionDetails.
+    def date(self) -> str:
+        """Gets the date of this TransactionDetails.
 
 
-        :return: The _date of this TransactionDetails.
+        :return: The date of this TransactionDetails.
         :rtype: str
         """
-        return self.__date
+        return self._date
 
-    @_date.setter
-    def _date(self, _date: str):
-        """Sets the _date of this TransactionDetails.
+    @date.setter
+    def date(self, date: str):
+        """Sets the date of this TransactionDetails.
 
 
-        :param _date: The _date of this TransactionDetails.
-        :type _date: str
+        :param date: The date of this TransactionDetails.
+        :type date: str
         """
 
-        self.__date = _date
+        self._date = date
 
     @property
-    def timing(self) -> float:
+    def timing(self) -> str:
         """Gets the timing of this TransactionDetails.
 
 
         :return: The timing of this TransactionDetails.
-        :rtype: float
+        :rtype: str
         """
         return self._timing
 
     @timing.setter
-    def timing(self, timing: float):
+    def timing(self, timing: str):
         """Sets the timing of this TransactionDetails.
 
 
         :param timing: The timing of this TransactionDetails.
-        :type timing: float
+        :type timing: str
         """
 
         self._timing = timing

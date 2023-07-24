@@ -270,13 +270,13 @@ components:
       - model_id
       - offer_id
       - transaction_id
-      - user_id
+      - email
       type: object
       properties:
         model_id:
           type: string
           description: model id
-        user_id:
+        email:
           type: string
           description: User who booked the vehicle
         transaction_id:
@@ -340,19 +340,19 @@ components:
       required:
       - model_id
       - transaction_amount
-      - user_id
+      - email
       type: object
       properties:
         model_id:
           type: string
-        user_id:
+        email:
           type: string
         transaction_amount:
           type: number
         date:
           type: string
         timing:
-          type: number
+          type: string
         account_from:
           type: string
         account_to:

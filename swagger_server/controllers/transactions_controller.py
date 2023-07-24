@@ -24,7 +24,7 @@ transactions = carDatabase.transactions
 users = carDatabase.users
 car_models = carDatabase.car_models
 
-logging.basicConfig(filename="newfile2.log",format="%(filename)s:%(lineno)s:%(levelname)s:%(message)s",level=logging.DEBUG)
+logging.basicConfig(filename="/home/hari/Desktop/mahindra_carsservice/customerfile.log",format="%(filename)s:%(lineno)s:%(levelname)s:%(message)s",level=logging.DEBUG)
 
 
 def add_transaction(body=None):  # noqa: E501
@@ -40,15 +40,23 @@ def add_transaction(body=None):  # noqa: E501
     if connexion.request.is_json:
         # body = TransactionInfo.from_dict(connexion.request.get_json())  # noqa: E501
         try:
-            if users.find_one({"user_id":body['user_id']}):
-                    if car_models.find_one({"model_id":body['model_id']}):
-                        body.update({"transaction_id" : (uuid.uuid4().hex)})
-                        transactions.insert_one(body)
-                        return "Transaction is Done", 200
-                    else:
-                        return "Model_id Not found",404
+            if transactions.find_one({"email":body['email']}):
+                    return "This transaction already done",404
+                    
             else:
-                return "User_id Not found",404
+                query = {"token_id":{"$exists": True}}
+                if users.find(query):
+                    if users.find_one({"email":body["email"]}):
+                        if car_models.find_one({"model_id":body['model_id']}):
+                                body.update({"transaction_id" : (uuid.uuid4().hex)})
+                                transactions.insert_one(body)
+                                return "Transaction is Done", 200
+                        else:
+                            return "Model_id Not found",404
+                    else:
+                        return "Email Not Found",404
+                else:
+                     return "Loggin To BookCars",404
         except:
             return "Internal_server_error",500
         
@@ -62,7 +70,7 @@ def get_transactions():  # noqa: E501
     """
     try:
     
-        data = transactions.find()
+        data = transactions.find().sort([('_id', -1)]).limit(1)
         data_list=[]
         for i in data:
             i["_id"]=str(i["_id"])
